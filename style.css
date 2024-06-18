@@ -118,7 +118,28 @@ a{
 }
 
 .quotation{
+    display:flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    color: #1f2937;
+    align-items: center;
+    padding:150px;
+}
+
+.quotation #quote{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    width:700px;
+}
+
+.quotation #quote-author{
+    display: flex;
+    font-style: bold;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: right;
+    width:700px;
 }
 
 .calltoaction{
