@@ -57,7 +57,7 @@ a{
     padding:40px;
 }
 .landing-message{
-    
+    width: 500px;
 }
 #landing-heading{
     font-size: 48px;
@@ -77,7 +77,44 @@ a{
 }
 
 .testimonials{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 
+.testmonials-heading h1{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.testimonials-main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin:30px;
+}
+.testimonial-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 150px;
+}
+.testimonial-box{
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonials-main .testimonial-cont .box-radius{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
 }
 
 .quotation{
@@ -89,5 +126,9 @@ a{
 }
 
 .footer{
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
 }
