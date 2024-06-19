@@ -73,6 +73,7 @@ a{
     color: #f9faf8;
     font-size: 18px;
     padding: 10px;
+    border: 3px solid #3882F6;
     border-radius: 5px;
 }
 
@@ -128,8 +129,9 @@ a{
 
 .quotation #quote{
     font-style: italic;
+    font-family: "Roboto",Light Italic;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 100;
     width:700px;
 }
 
@@ -143,7 +145,22 @@ a{
 }
 
 .calltoaction{
+    display: flex;
+    color:#f9faf8;
+}
 
+.calltoaction-bubble{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 5px;
+    flex: 1;
+    margin: 100px;
+    padding: 40px;
+}
+
+.calltoaction-bubble #sign-up{
+    border: 3px solid #e5e7eb;
 }
 
 .footer{
